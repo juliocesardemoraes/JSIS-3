@@ -1,6 +1,5 @@
 import Editor from "@monaco-editor/react";
 import { emmetHTML, emmetCSS } from "emmet-monaco-es";
-import { useState } from "react";
 
 export default function App() {
   const handleEditorDidMount = () => {
