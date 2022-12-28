@@ -3,12 +3,9 @@ import { emmetHTML, emmetCSS } from "emmet-monaco-es";
 import { useState } from "react";
 
 export default function App() {
-  const [isEditorReady, setIsEditorReady] = useState(false);
-
   const handleEditorDidMount = () => {
     emmetHTML(window.monaco);
     emmetCSS(window.monaco);
-    setIsEditorReady(true);
   };
 
   return (
