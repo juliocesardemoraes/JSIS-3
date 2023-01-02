@@ -18,3 +18,7 @@ h3 {
   font-size: 28px;
   font-weight: 700;
 }
+
+#root {
+  height: 100vh;
+}
